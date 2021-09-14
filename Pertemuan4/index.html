@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORMULIR</title>
+    </head>
+    <body>
+        <form action="submission.html" method="POST">
+            <fieldset>
+                <h1>Formulir Calon Pegawai</h1>
+                <section class="nama">
+                    <label for="nama">Nama :</label>
+                          <input type="text" name="nama" id="nama">
+                </section>
+                <br>
+                <section class="alamat">
+                    <label for="alamat">Alamat :</label>
+                          <input type="text" name="alamat" id="alamat">
+                </section>
+                <br>
+                <section class="password">
+                    <label for="password">Password :</label>
+                          <input type="text" name="password" id="password">
+                </section>
+                <br>
+                <section class="jenis">
+                    <span>Jenis Kelamin :</span>
+                    <input type="radio" name="jenis" id="laki-laki" value="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                    <input type="radio" name="jenis" id="perempuan" value="perempuan">
+                    <label for="perempuan">Perempuan</label>
+                </section>
+                <br>
+                <section class="bahasa">
+                    <span>Bahasa pemograman yang dikuasai :</span>
+                    <input type="checkbox" name="bahasa" id="web" value="web">
+                    <label for="web">Web</label>
+                    <input type="checkbox" name="bahasa" id="mobile" value="mobile">
+                    <label for="mobile">MOBILE</label>
+                    <input type="checkbox" name="bahasa" id="desktop" value="desktop">
+                    <label for="desktop">DESKTOP</label>
+                <br>
+                <br>
+                <section class="kota-asal">
+                    <label for="kota">Kota asal :</label>
+                    <select name="kota" id="kota">
+                      <option value="semarang">Semarang</option>
+                      <option value="manado">Manado</option>
+                      <option value="jakarta">Jakarta</option>
+                    </select>
+                </section>
+                <br>
+                <section class="extra-info">
+                    <label for="extra">Apa yang Membuat Kami harus memilih Anda?:</label>
+                    <br>
+                    <textarea placeholder="Tulis jawaban anda di sini" id="extra" name="extra" rows="5" cols="60"></textarea>
+                </section>
+                <br>
+                <section class="submission">
+                    <input type="submit" nama="submit" value="proses">
+                </section>
+            </fieldset>
+        </form>
+    </body>
+</html>
